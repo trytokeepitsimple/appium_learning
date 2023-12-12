@@ -5,7 +5,6 @@ from appium.options.android import UiAutomator2Options
 from appium.webdriver.appium_service import AppiumService
 
 from appium.webdriver.common.appiumby import AppiumBy
-from selenium.webdriver.support.ui import Select
 
 capabilities = dict(
     platformName='Android',
