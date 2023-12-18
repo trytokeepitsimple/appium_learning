@@ -22,7 +22,7 @@ appium_service.start()
 
 print("appium service started succesfully")
 
-appium_server_url = 'http://localhost:4723'
+appium_server_url = 'http://localhost:4724'
 
 # driver = webdriver.Remote(appium_server_url, options=UiAutomator2Options().load_capabilities(capabilities))
 #
