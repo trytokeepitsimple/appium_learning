@@ -1,0 +1,16 @@
+{
+  "devices": [
+    {
+      "platformName": "Android",
+      "deviceName": "Pixel 6a API 30",
+      "platformVersion": "11.0",
+      "automationName":"UiAutomator2"
+    },
+    {
+      "platformName": "iOS",
+      "deviceName": "iPhone X",
+      "platformVersion": "12.0",
+      "app": "path/to/your/app.ipa"
+    }
+  ]
+}

@@ -52,6 +52,9 @@ submit_btn = (driver.find_element(AppiumBy.ID , 'com.skill2lead.appiumdemo:id/Bt
 print("4 : Name visible on Preview Screen")
 time.sleep(5)
 
+driver.hide_keyboard()
+time.sleep(2)
+driver.quit()
 appium_service.stop()
 print("5 : Appium Service Going Down")
 

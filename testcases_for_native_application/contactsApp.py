@@ -30,7 +30,7 @@ appium_server_url = 'http://localhost:4723'
 
 driver = webdriver.Remote(appium_server_url, options=UiAutomator2Options().load_capabilities(desired_caps))
 
-driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR,'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Jeenia").instance(0))').click()
+driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR,'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Abhi").instance(0))').click()
 time.sleep(5)
 driver.quit()
 appium_service.stop()
