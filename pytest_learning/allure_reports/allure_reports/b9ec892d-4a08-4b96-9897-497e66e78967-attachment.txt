@@ -1,0 +1,8 @@
+1 : Appium Service Going UP
+3 : Gmail Service Opted
+4 : Gmail Account Login
+5 :Started Getting into Charging flow
+6 : Manual Way Opted successfully
+7 : On Location Screen - Opting Location - By Default : Santa Ana
+8 : Opting Continue on location screen
+9 : Opt Charger Number
